@@ -1,0 +1,64 @@
+Constructing a Date from (d, m, y) 03-Mar-16
+Today's date is 06-Mar-16
+Copying date 06-Mar-16
+Next date of 06-Mar-16 is 07-Mar-16
+Same day next week of 07-Mar-16 is 14-Mar-16
+Previous day of 14-Mar-16 is 13-Mar-16
+Same day previous week of 13-Mar-16 is 06-Mar-16
+Number of days between 06-Mar-16 and 04-Feb-16 is 31
+15 days after 04-Feb-16 is 19-Feb-16
+15 days before 04-Feb-16 is 20-Jan-16
+Week number of 04-Feb-16 is 6
+Month of 04-Feb-16 is 2
+Day of the week of 04-Feb-16 is 4
+01-Apr-15 is not in leap year
+01-Mar-16 is in leap year
+01-Apr-15 and 01-Apr-15 are same
+01-Mar-16 and 01-Apr-15 are not same
+01-Mar-16 and 01-Apr-15 are not same
+01-Apr-15 and 01-Apr-15 are same
+
+01-Apr-15 is <= 01-Apr-15
+01-Mar-16 is not <= 01-Apr-15
+01-Apr-15 is <= 01-Mar-16
+01-Apr-15 is >= 01-Apr-15
+01-Mar-16 is >= 01-Apr-15
+01-Apr-15 is not >= 01-Mar-16
+
+01-Apr-15 is not < 01-Apr-15
+01-Mar-16 is not < 01-Apr-15
+01-Apr-15 is < 01-Mar-16
+01-Apr-15 is not > 01-Apr-15
+01-Mar-16 is > 01-Apr-15
+01-Apr-15 is not > 01-Mar-16
+
+dd-mmm-yy format date is 06-Mar-16
+d-m-yy format date is 6-3-16
+d-mm-yyyy format date is 6-03-2016
+No Date
+No Date
+dd-0-yyyy format date is 06-March-2016
+--Invalid Date Format
+
+Day is 0
+Error: invalid_argument
+Month is 13
+Error: invalid_argument
+31st Feb is not valid
+Error: domain_error
+30th feb is not valid
+Error: domain_error
+29th Feb of 2017 which is not leap year
+Error: domain error
+Date below 1950
+Error: out_of_range
+Date above 2050
+Error: out_of_range
+Enter the date
+2-2-2013
+You have entered 2-02-2013
+Enter the date
+2-2-23
+You have entered 2-02-2023
+
+
